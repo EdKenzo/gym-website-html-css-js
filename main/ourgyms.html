@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html manifest="manifest.appcache" lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Gym locations</title>
+</head>
+<body>
+  <!--Navbar-->
+    <header class="navbar">
+    <a href="main.html#split-screen" class="logo">VERUS</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn"/>
+    <label class="menu-icon" for="menu-btn">
+      <span class="nav-icon"></span></label>
+    <ul class="menu">
+      <li><a href="main.html#philosophy" >About Us</a></li>
+      <li><a href="contactpage.html" >Help & Contact</a></li>
+      <li><a href="ourgyms.html" >Our Gyms</a></li>
+      <li><a href="ouroffers.html" >Our Offers</a></li>
+      <li><a href="ourequipment.html">Equipment</a></li>
+      <li><a href="login.html" >Log in</a></li>
+    </ul>
+  </header>
+  <!--Title-->
+	<section class="top">
+		<h2><a class="diff">Our </a>gyms</h2>
+    <p>
+        <strong>
+          Over the past 2 years, we have succesfully branched out across 6 different locations around Leeds. Find the location that best suits you!
+        </strong>
+    </p>
+		<div id="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d150884.4380825297!2d-1.5199484422177634!3d53.779353583222004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1651774269640!5m2!1sen!2suk" width="1000" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		  <br>
+        <a href="#" id="btn">Find closest gym</a>
+    </div>
+	</section>
+	<!-- Location cards -->
+    <section id="cards">
+      <div class="locations">
+        <div class="location">
+          <h3>Leeds City Centre North</h3>
+          <p>0.4 miles
+          <br>Merrion Way
+          <br>LS2 8BT</p>
+        </div>
+        <div class="location">
+          <h3>Leeds City Centre South</h3>
+          <p>0.6 miles
+          <br>4 Cloth Hall Street
+          <br>LS1 2HD</p>
+        </div>
+        <div class="location">
+          <h3>Leeds Regent Street</h3>
+          <p>0.9 miles
+          <br>Mabgate Junction
+          <br>LS7 1AX</p>
+        </div>
+        <div class="location">
+          <h3>Leeds Bramley</h3>
+          <p>3 miles
+          <br>Elmfield Way
+          <br>LS13 4UD</p>
+        </div>
+        <div class="location">
+          <h3>Leeds Kirkstall Bridge</h3>
+          <p>2.5 miles
+          <br>Kirkstall Bridge Shopping Park
+          <br>LS5 3BL</p>
+        </div>
+        <div class="location">
+          <h3>Leeds Thorpe Park</h3>
+          <p>5.1 miles
+          <br>The Springs
+          <br>LS15 8GH</p>
+        </div>
+      </div>
+    </section>
+    <footer>    
+      <p class="text-center">Verus Copyright &copy; 2022 </p>
+    </footer>
+
+	
+    <script src="map.js"></script>
+</body>
+</html>
